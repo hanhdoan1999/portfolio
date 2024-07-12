@@ -18,13 +18,9 @@ function Contact() {
     event.preventDefault();
     setIsLoading(true);
 
-    const serviceID = 'service_76kx2kl';
-    const templateID = 'template_uwj507t';
-    const userID = 'j485Y45oPH0rDJtxB';
-
-    // const serviceID = 'YOUR_SERVICE_ID';
-    // const templateID = 'YOUR_TEMPLATE_ID';
-    // const userID = 'YOUR_USER_ID';
+    const serviceID = 'YOUR_SERVICE_ID';
+    const templateID = 'YOUR_TEMPLATE_ID';
+    const userID = 'YOUR_USER_ID';
 
 
     try {
