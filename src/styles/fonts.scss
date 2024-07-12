@@ -13,11 +13,14 @@
     font-style: normal;
   }
   
-  // body {
-  //   font-family: 'Manrope', sans-serif;
-  //   margin: 0;
-  //   -webkit-font-smoothing: antialiased;
-  //   -moz-osx-font-smoothing: grayscale;
-  //   background: #F2F3F2;
-  // }
+  body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #F2F3F2;
+    color: #7C808B;
+    /* min-height: 100vh; */
+  }
+  
   
