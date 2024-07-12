@@ -1,0 +1,73 @@
+.project-item {
+  .project-card {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .project-details {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    height: 290px;
+    object-fit: cover;
+  }
+
+  .no-image {
+    height: 290px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .project-category {
+    color: #E6813E;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #46434E;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .project-description {
+    color: #7C808B;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+            line-clamp: 5; 
+    -webkit-box-orient: vertical;
+  }
+  
+  .download-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .download-button {
+    background-color: #46434E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .download-button:hover {
+    background-color: #E6813E;
+  }
+}

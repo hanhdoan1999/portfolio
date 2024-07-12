@@ -1,0 +1,39 @@
+@import './styles/variables.scss';
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F2F3F2;
+  color: #7C808B;
+  /* min-height: 100vh; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dark-mode {
+  background-color: #434343;
+  color: white;
+
+  .heading, .title, .name , .navbar a, .nav-link, .blog-details .blog-title{ 
+    color: white !important;
+  }
+
+  .projects-title, .blog-title {
+    color: #E6813E !important;
+  }
+
+  .cta-container, .why-hire-me-content {
+    background-color: #46434E;
+  }
+
+  .profile-container .social-icon, .blog-description, .description {
+    color: #ffffff !important;
+  }
+
+}
+

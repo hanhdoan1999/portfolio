@@ -1,0 +1,24 @@
+.skill-container {
+    padding: 60px 0;
+    text-align: center;
+
+    .heading {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+      color: #45577B;
+      margin-top: 0;
+      text-align: left;
+    }
+      
+  }
+
+  @media screen and (max-width: 600px) {
+    .skills-container {
+      padding: 2rem 0;
+      .heading {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  

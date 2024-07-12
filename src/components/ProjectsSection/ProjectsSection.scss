@@ -1,0 +1,124 @@
+.projects-container {
+    padding: 60px 0;
+    text-align: center;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .see-more {
+      color: #E6813E;
+      font-size: 1rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .see-more .arrow {
+      font-size: 1.2rem;
+      vertical-align: middle;
+    }
+    
+    .projects-title {
+      color: #46434E;
+      font-size: 1.25rem;
+    }
+    
+    .heading {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+      color: #45577B;
+      margin-top: 0;
+      text-align: right;
+    }
+    
+    .projects-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    .project-card {
+      border-radius: 8px;
+      overflow: hidden;
+      width: 100%;
+      text-align: left;
+      position: relative;
+      transition: transform 0.4s ease-in-out;
+    }
+    
+    .project-details {
+      padding: 20px;
+      position: absolute;
+      background-color: #ffffff;
+      bottom: 0;
+      border-bottom-left-radius: 38px;
+      border-bottom-right-radius: 38px;
+      opacity: 0;
+      transform: translateY(100%);
+      transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+    }
+    
+    .project-card:hover .project-details {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .project-image {
+      width: 100%;
+      height: auto;
+    }
+    
+
+    .project-category {
+      color: #E6813E;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .project-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #46434E;
+      margin-bottom: 1rem;
+    }
+    
+    .project-description {
+      color: #7C808B;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .download-buttons {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .download-button {
+      background-color: #46434E;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .download-button:hover {
+      background-color: #E6813E;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .projects-container {
+      padding: 2rem 0;
+      .heading {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  

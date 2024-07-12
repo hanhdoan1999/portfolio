@@ -1,0 +1,44 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem 0 5rem;
+}
+
+.tab-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.tab-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #7C808B;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+    text-transform: capitalize;
+    font-family: 'Manrope', sans-serif;
+}
+
+.tab-button.active {
+    color: #E6813E;
+}
+
+@media (max-width: 768px) {
+    .tab-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}

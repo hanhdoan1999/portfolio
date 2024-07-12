@@ -1,0 +1,48 @@
+.blog-card-item {
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+
+    .blog-image {
+        width: 100%;
+        height: auto;
+        height: 370px;
+        object-fit: cover;
+      }
+      
+      .blog-details {
+        padding: 20px;
+      }
+      
+      .blog-date {
+        color: #7C808B;
+        font-size: 0.875rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .blog-title {
+        font-size: 1.5rem;
+        color: #46434E;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* number of lines to show */
+                line-clamp: 3; 
+        -webkit-box-orient: vertical;
+      }
+      .blog-description {
+        font-size: 1rem;
+        color: #46434E;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* number of lines to show */
+                line-clamp: 3; 
+        -webkit-box-orient: vertical;
+      }
+  }
+  

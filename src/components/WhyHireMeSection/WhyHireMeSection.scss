@@ -1,0 +1,78 @@
+.why-hire-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #434343; /* Adjust this color to match your design */
+    padding: 40px 0;
+    border-radius: 8px;
+    margin: 20px 0;
+
+    .why-hire-me-content {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+    }
+    
+    .illustration-container {
+      flex: 1;
+      text-align: center;
+    }
+    
+    .illustration {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+    
+    .text-container {
+      flex: 1;
+      color: #FFFFFF; /* Text color */
+      padding: 20px;
+      text-align: left;
+      max-width: 457px;
+    }
+    
+    .section-title {
+      color: #E6813E;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    
+    .heading {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #F2F3F2;
+    }
+    
+    .description {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      color: #E0E0E0
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .why-hire-me-container {
+      .why-hire-me-content {
+        flex-direction: column;
+      }
+      
+      .text-container {
+        max-width: inherit;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .why-hire-me-container {
+      .heading {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  
