@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.18c11684.css",
+    "main.js": "/portfolio/static/js/main.83d160f1.js",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.70ae5b35499d4528170c.png",
+    "static/media/Image (1).png": "/portfolio/static/media/Image (1).d745111bc1b6505a13b3.png",
+    "static/media/Image.png": "/portfolio/static/media/Image.d2d0455bacd939f9e928.png",
+    "static/media/Rectangle 34.png": "/portfolio/static/media/Rectangle 34.97f7ba1570620e4bdc65.png",
+    "static/media/Image (2).png": "/portfolio/static/media/Image (2).509af6c3045338a17524.png",
+    "static/media/Rectangle 35.png": "/portfolio/static/media/Rectangle 35.dd0b7411e07cab4ad672.png",
+    "static/media/Manrope-Regular.ttf": "/portfolio/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/Manrope-Bold.ttf": "/portfolio/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
+    "static/media/kitty.png": "/portfolio/static/media/kitty.608ebcf654e6d85fb24d.png",
+    "static/media/illustration.svg": "/portfolio/static/media/illustration.fe1791ccf930dd1671f97592d1f51249.svg",
+    "static/media/koala.png": "/portfolio/static/media/koala.dc3ea8d744dd29abe3bc.png",
+    "static/media/moon.png": "/portfolio/static/media/moon.8129ab9835404e1ce67b.png",
+    "static/media/sun.png": "/portfolio/static/media/sun.27a5d8395620746ff965.png",
+    "index.html": "/portfolio/index.html",
+    "main.18c11684.css.map": "/portfolio/static/css/main.18c11684.css.map",
+    "main.83d160f1.js.map": "/portfolio/static/js/main.83d160f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c11684.css",
+    "static/js/main.83d160f1.js"
+  ]
+}

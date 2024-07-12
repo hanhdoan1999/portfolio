@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // This script ensures that the correct URL is displayed in the browser's address bar.
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      var newPath = pathname + search + hash;
+      window.history.replaceState(null, "", newPath);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
