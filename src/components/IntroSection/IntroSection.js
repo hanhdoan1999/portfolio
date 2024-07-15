@@ -33,7 +33,7 @@ function IntroSection() {
           </p>
           <div className="buttons">
             <Link to="/contact" className="button reach-me">Reach Me</Link>
-            <Link to="https://firebasestorage.googleapis.com/v0/b/fir-blog-19b47.appspot.com/o/files%2FCV_HanhDoan.pdf?alt=media&token=91b8508d-726a-401a-807b-b407fc2911d6" target="_blank" className="button download-cv">Download CV</Link>
+            <Link to="https://firebasestorage.googleapis.com/v0/b/fir-blog-19b47.appspot.com/o/files%2FCV_HanhDoan_FEDeveloper.pdf?alt=media&token=233ba2fe-1587-4d47-989c-7a6e577ef0a5" target="_blank" className="button download-cv">Download CV</Link>
           </div>
         </div>
       </div>
